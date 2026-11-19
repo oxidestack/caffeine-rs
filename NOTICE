@@ -1,0 +1,11 @@
+caffeine-rs
+Copyright The caffeine-rs Authors. Licensed under the Apache License, Version 2.0 (LICENSE).
+
+This crate is an unofficial Rust port of part of the following work.
+
+Caffeine (https://github.com/ben-manes/caffeine), version 3.1.8, Copyright Ben Manes, Apache-2.0.
+  The eviction policy (W-TinyLFU: admission window, probation and protected SLRU segments, the FrequencySketch
+  admission filter and the hill climber) is ported from BoundedLocalCache.java and FrequencySketch.java. The
+  upstream sources are pinned read-only in upstream/ (a git submodule), with their own LICENSE.
+  tests/vectors/ holds output recorded from the published caffeine-3.1.8.jar by the programs in upstream-tools/.
+  It is not part of the Caffeine project and is not endorsed by it.

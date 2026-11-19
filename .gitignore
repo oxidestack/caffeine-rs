@@ -1,0 +1,11 @@
+/target
+/upstream-tools/lib/
+/upstream-tools/out/
+/.claude-gen*.log
+__pycache__/
+.DS_Store
+# The documentation site's build output and staged pages (site/.gitignore says the same)
+/site/node_modules/
+/site/dist/
+/site/.astro/
+/site/src/content/docs/
